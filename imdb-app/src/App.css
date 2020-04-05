@@ -1,0 +1,102 @@
+.main-container {
+  padding: 10px;
+  min-height: 100vh;
+  width: 98%;
+  background-color: rgb(29, 4, 4);
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.heading {
+  color: #fff;
+  text-align: center;
+}
+
+h3 {
+  color: #fff;
+}
+
+hr {
+  background-color: rgb(139, 20, 20);
+  color: rgb(139, 20, 20);
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* .top-container h2 {
+  color: #fff;
+} */
+
+.top-container input {
+  width: 300px;
+
+  height: 20px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* .top-container button {
+  margin-top: 50px;
+  width: 100px;
+  height: 34px;
+  padding: 5px;
+  background-color: rgb(165, 26, 26);
+  color: #fff;
+  border: none;
+} */
+
+.middle-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.top {
+  margin: 10px;
+  width: 220px;
+  height: 200px;
+
+  border: 1px solid red;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.series {
+  margin: 10px;
+  width: 200px;
+  height: 150px;
+  /* padding: 50px; */
+  border: 1px solid red;
+}
+
+.movieResultContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 300px auto;
+  width: 100%;
+  background-color: rgb(65, 6, 6);
+}
+
+.movieResultContainer h4 {
+  color: #fff;
+  margin-left: 30px;
+}
+
+.FetchedDetails {
+  margin-left: 15px;
+  font-size: 18px;
+  font-family: fantasy;
+}
